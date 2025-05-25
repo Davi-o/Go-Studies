@@ -2,23 +2,23 @@ package structs
 
 import "fmt"
 
-type address struct {
-	streetname string
-	zipcode string
-	number  int
+type Address struct {
+	Streetname string
+	Zipcode string
+	Number  int
 }
 
 func SimpleStruct() {
-	firstHouse := address{
-		streetname: "street name",
-		zipcode: "9120300",
-		number:  312,
+	firstHouse := Address{
+		Streetname: "street name",
+		Zipcode: "9120300",
+		Number:  312,
 	}
 
-	secondHouse := address{
-		streetname: "street name",
-		zipcode: "9120310",
-		number:  210,
+	secondHouse := Address{
+		Streetname: "street name",
+		Zipcode: "9120310",
+		Number:  210,
 	}
 
 	fmt.Println(firstHouse, secondHouse)

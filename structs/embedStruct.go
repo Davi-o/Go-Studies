@@ -3,24 +3,24 @@ package structs
 import "fmt"
 
 type building struct {
-	room []address
+	room []Address
 	floors int
 }
 
 func EmbedStruct(){
 	firstBuilding := building {
-		room: []address{
+		room: []Address{
 			{
-				streetname: "street name",
-				zipcode: "9120300",
-				number:  150,
+				Streetname: "street name",
+				Zipcode: "9120300",
+				Number:  150,
 			},
 		}, 
 		floors: 3,
 	}
 
 	secondBuilding := building {
-		room: []address{
+		room: []Address{
 			{
 				"street name",
 				"9120420",

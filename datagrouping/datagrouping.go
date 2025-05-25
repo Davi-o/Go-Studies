@@ -1,12 +1,10 @@
 package datagrouping
 
-
-func DataGrouping (){
+func DataGrouping(){
 	basicArrayFormat()
 	slicesTest()
 	mapsTest()
 }
-
 
 func mapsTest() {
 	maps()

@@ -51,7 +51,7 @@ func switchCase() {
 }
 
 func forLoop(){
-	for i := 33; i <= 122; i++ {
+	for i := 50; i <= 60; i++ {
 		fmt.Printf("%c \n", i)
 	}
 }
