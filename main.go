@@ -15,4 +15,6 @@ func main() {
 	jsonHandling.Handle()
 	sorting.Sort()
 	goroutines.Goroutines()
+	goroutines.MutexToDealWithRaceCondition()
+	goroutines.AtomicToDealWithRaceCondition()
 }
